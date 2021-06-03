@@ -1,0 +1,17 @@
+.box select {
+	background-color: #fed518;
+	color: #212121;
+	padding: 12px;
+	width: 250px;
+	border: none;
+	margin: 2px 0;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+	-webkit-appearance: button;
+	appearance: button;
+	outline: none;
+}
+
+.box select option {
+	padding: 30px;
+}

@@ -1,0 +1,85 @@
+.dishForm {
+	padding: 15px 5px;
+	width: 80%;
+	&--label {
+		font-size: 22px;
+		font-weight: 500;
+		color: #212121;
+		margin-bottom: 8px;
+	}
+
+	&--group {
+		padding-bottom: 10px;
+		width: 50%;
+		position: relative;
+	}
+
+	&--groupOfInputs {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding-bottom: 10px;
+	}
+
+	&--button {
+		background-color: #fed518;
+		color: #212121;
+		padding: 12px;
+		border: none;
+		margin: 2px 0;
+		font-size: 20px;
+		font-weight: 700;
+		box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+		-webkit-appearance: button;
+		appearance: button;
+		cursor: pointer;
+		outline: none;
+		&:hover {
+			color: #555555;
+			background-color: #ffdd22;
+		}
+
+		&:disabled,
+		&[disabled] {
+			background-color: #c4c4c4;
+			color: #f3f3f3;
+			cursor: no-drop;
+		}
+	}
+}
+
+.dishForm--rage {
+	height: 33px;
+	-webkit-appearance: none;
+	margin: 10px 0;
+	height: 11px;
+	cursor: pointer;
+	margin-right: 20px;
+	background: #fed518;
+	border-radius: 5px;
+	& :focus {
+		outline: none;
+		border-radius: 5px;
+	}
+	&:focus::-ms-track {
+		background: #fed518;
+	}
+	&::-ms-thumb {
+		border: 1px solid #fed518;
+		height: 20px;
+		width: 20px;
+		border-radius: 15px;
+		background: #212121;
+		cursor: pointer;
+	}
+	&::-webkit-slider-thumb {
+		border: 1px solid #fed518;
+		height: 20px;
+		width: 20px;
+		border-radius: 15px;
+		background: #212121;
+		cursor: pointer;
+		-webkit-appearance: none;
+	}
+}

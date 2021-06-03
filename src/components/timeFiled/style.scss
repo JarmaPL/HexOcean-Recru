@@ -1,0 +1,19 @@
+.time--input {
+	color: #212121;
+	padding: 12px;
+	width: 180px;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	margin: 2px 0;
+	font-size: 22px;
+	background-color: transparent;
+	outline: none;
+	&:hover {
+		border: 1px solid #fed518;
+	}
+
+	&:focus {
+		outline: none;
+		border: 1px solid #fed518;
+	}
+}
