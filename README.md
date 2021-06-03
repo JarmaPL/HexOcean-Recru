@@ -29,11 +29,13 @@ Or if using Npm:
 
 ## Project Idea
 
-####This project is made for recruitment on Front-End Developer position.
+#### This project is made for recruitment on Front-End Developer position.
 
 I was start this project with chosee technologies, so I decaite to use React becouse I have the most expirience with this framework, next I build maind map what i need and how to make that, next i devait to use ExpressJs becouse its very good framework to build backend and working very well with MongoDB.
 
 ## Screenshots
+
+![Page screenshot](./src/assets/image/moc_hexocean.jpg)
 
 ## Setup
 
