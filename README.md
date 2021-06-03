@@ -7,8 +7,9 @@
 - [Available Scripts](#available-scripts)
 - [Technologies Used](#technologies-used)
 - [Project Idea](#project-idea)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
 - [Setup](#setup)
+- [Time step](#time-step)
 - [Knowlage Bases](#knowlage-bases)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -27,60 +28,69 @@ Or if using Npm:
 
 ## Technologies Used
 
+- [React](https://github.com/facebook/create-react-app)
+- [Redux](https://github.com/reduxjs/react-redux)
+- [Redux Form](https://github.com/redux-form/redux-form)
+- [Node Sass](https://github.com/sass/node-sass)
+
 ## Project Idea
 
 #### This project is made for recruitment on Front-End Developer position.
 
-I was start this project with chosee technologies, so I decaite to use React becouse I have the most expirience with this framework, next I build maind map what i need and how to make that, next i devait to use ExpressJs becouse its very good framework to build backend and working very well with MongoDB.
+The first time I read the recruitment task I thought the task would be easy. However, after implementing more elements using redux-form(which I didn't know before) I had to check the documentation very often. In the end I am delighted with my solution, because I took into account all the assumptions and added something from myself.
 
-## Screenshots
+## Screenshot
 
 ![Page screenshot](./src/assets/image/moc_hexocean.jpg)
 
 ## Setup
 
-    1. Download project by git pull ${link to repo}
-    2. Lunch Docker and follow this commends:
-        a: `sudo docker pull mongo`
-        b: `sudo docker run -it -v mongodata:/${path to saving data} --name mongodb -d mongo
-    3. Open project folder and follow commends:
-        a: `cd server`
-        b: `yarn install`
-        b: `nano .env` -> type "MONGODB_URI=${link to mongodb and add "/${Database name", default: mongodb://127.0.0.1:27017/mec} -> save by Ctrl + O (on MacOS)`
-        c: `yarn start`
-        d: `Open secound terminal`
-        e: `cd client`
-        f: `nano .env` -> type "REACT_APP_SERVER_PATH=${path to server, default: http://localhost:4000} -> save by Ctrl + O (on MacOS)`
-        g: `rm -R build`
-        h: `yarn build`
-        i: `server -s build`
-    4. Lunch browser and connect to localhost:5000
-
-If you're using npm:
+#### By Yarn:
 
     1. Download project by git pull ${link to repo}
-    2. Lunch Docker and follow this commends:
-        a: `sudo docker pull mongo`
-        b: `sudo docker run -it -v mongodata:/${path to saving data} --name mongodb -d mongo
-    3. Open project folder and follow commends:
-        a: `cd server`
-        b: `npm install`
-        b: `nano .env` -> type "MONGODB_URI=${link to mongodb and add "/${Database name", default: mongodb://127.0.0.1:27017/mec} -> save by Ctrl + O (on MacOS)`
-        c: `npm start`
-        d: `Open secound terminal`
-        e: `cd client`
-        f: `nano .env` -> type "REACT_APP_SERVER_PATH=${path to server, default: http://localhost:4000} -> save by Ctrl + O (on MacOS)`
-        g: `rm -R build`
-        h: `npm build`
-        i: `serve -s build`
-    4. Lunch browser and connect to localhost:5000
+    2. Open project folder and follow commends:
+        a: `yarn`
+        b: `yarn run build`
+        c: `server -s build`
+
+#### By Npm:
+
+    1. Download project by git pull ${link to repo}
+    2. Open project folder and follow commends:
+        a: `npm install`
+        b: `npm run build`
+        c: `server -s build`
+
+## Time Step
+
+#### Create Project at: `8:45am 02.06.2021`, Project End: `11am 03.06.2021`
+
+Of course, the project was not made all the time.
+
+- Setup project: `00:08:12`
+- Making Design on Figma: `00:05:42`
+- Preapare images: `00:03:59`
+- Coding: `03:23:21`
+- Debuging: `02:45:02`
+- Research: `01:23:34`
+
+All thinks takes me somthing between `7:30h - 8:30h`
 
 ## Knowlage Bases
 
+- [Redux Docs](https://redux.js.org/introduction/getting-started)
+- [Redux Form Docs](https://redux-form.com/8.2.2/docs/gettingstarted.md/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [React Docs](https://pl.reactjs.org/docs/getting-started.html)
+- [W3 Schools](https://www.w3schools.com/)
+- [Code Pen](https://codepen.io/)
+
 ## Acknowledgements
+
+👏 Thank you very much for accepting my application and giving me a chance to perform the recruitment task and show my skills. I did my best to make my solutions as simple as possible and took care of the code quality and clarity. Of course as much as I can. Thank you very much again for the fascinating recruitment task, which was an enjoyable challenge at which I could learn new things. 👊 🎉
 
 ## Contact
 
-    Szymon Jarmuszczak
-    mail: szymon.jarmuszczak@gmail.com
-    tel: (+48) 572-344-506
+    Author: Szymon Jarmuszczak
+    e-mail: szymon.jarmuszczak@gmail.com
+    phone: (+48) 572-344-506
