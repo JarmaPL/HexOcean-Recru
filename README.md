@@ -8,6 +8,8 @@
 
 > Yarn version: 1.22.10
 
+Resolution for the best experience is: 1920x1080, 2560x1600
+
 [Git Repo](https://github.com/JarmaPL/HexOcean-Recru)
 
 [Live Preview](https://hexocean.justsite.pl/)
