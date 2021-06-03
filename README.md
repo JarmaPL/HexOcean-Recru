@@ -2,6 +2,13 @@
 
 > This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
+> Node version: 14.15.4
+> Npm version: 7.6.3
+> Yarn version: 1.22.10
+
+[Git Repo](https://github.com/JarmaPL/HexOcean-Recru)
+[Live Preview](https://hexocean.justsite.pl/)
+
 ## Table of Contents
 
 - [Available Scripts](#available-scripts)
